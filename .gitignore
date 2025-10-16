@@ -173,3 +173,7 @@ cython_debug/
 
 # Renovate
 cache
+
+# slides
+.ppt* 
+# only PDFs for slides please!

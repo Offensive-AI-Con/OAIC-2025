@@ -8,7 +8,7 @@
   align="center"
 />
 
-**An OAIC repository for the 2025 conference in San Diego**
+**OAIC Conference October 5-8, 2025**
 
 </div>
 
