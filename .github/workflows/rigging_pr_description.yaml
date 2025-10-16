@@ -2,7 +2,7 @@
 name: Update PR Description with Rigging
 on:
   pull_request:
-    types: [opened]
+    types: [opened, synchronize]
 
 jobs:
   update-description:
