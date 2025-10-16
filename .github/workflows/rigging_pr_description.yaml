@@ -30,7 +30,7 @@ jobs:
       - name: Generate PR Description
         id: description
         env:
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.   }}
         run: |
           DESCRIPTION="$(uv run --no-project .hooks/generate_pr_description.py --base-ref "origin/${{ github.base_ref }}" --exclude "./*.lock")"
           {
