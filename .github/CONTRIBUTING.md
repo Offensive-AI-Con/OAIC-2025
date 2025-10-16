@@ -8,7 +8,7 @@ Thank you for speaking at OAIC 2025! Sharing your slides is easy:
 
 ### Quick Steps
 
-1. **Fork this repository** - Click the "Fork" button at the top right of this page
+1. **Fork this repository** - [Click here to fork](https://github.com/Offensive-AI-Con/OAIC-2025/fork)
 
 2. **Add your slides** to the appropriate folder:
    - Day 1 talks (October 6): `media/slides/day-one/`
@@ -23,9 +23,7 @@ Thank you for speaking at OAIC 2025! Sharing your slides is easy:
 
 4. **Commit and push** your changes to your fork
 
-5. **Create a Pull Request** - [Click here to create a PR](https://github.com/Offensive-AI-Con/OAIC-2025/compare) (our template will auto-load!)
-
-6. **That's it!** - No tests, no linting, no CLA required for slide uploads
+5. **Create a Pull Request** - [Click here to create a PR](https://github.com/Offensive-AI-Con/OAIC-2025/compare)
 
 ### File Format Guidelines
 
