@@ -23,6 +23,10 @@ Please reach out to [oaic@remotethreat.com](mailto:oaic@remotethreat.com) with q
 
 Interested in attending next year? To get notified for OAIC 2026 dates, fill out the form at https://www.offensiveaicon.com/#sold-out.
 
-## Speakers Quick Start
+## Speakers: Share Your Slides
 
-Ready to share your slides? [Create a Pull Request here](https://github.com/Offensive-AI-Con/OAIC-2025/compare) or see our [Contributing Guide](.github/CONTRIBUTING.md) for detailed instructions.
+1. [Fork this repo](https://github.com/Offensive-AI-Con/OAIC-2025/fork)
+2. Add your slides to `media/slides/day-one/` or `media/slides/day-two/`
+3. [Create a Pull Request](https://github.com/Offensive-AI-Con/OAIC-2025/compare)
+
+See the [Contributing Guide](.github/CONTRIBUTING.md) for detailed instructions.
