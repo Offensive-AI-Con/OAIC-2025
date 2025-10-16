@@ -1,0 +1,26 @@
+---
+# Area Labels
+area/docs:
+  - changed-files:
+      - any-glob-to-any-file: "docs/**/*"
+
+area/examples:
+  - changed-files:
+      - any-glob-to-any-file: "examples/**/*"
+
+area/github:
+  - changed-files:
+      - any-glob-to-any-file: ".github/**/*"
+      
+# Documentation Labels
+type/docs:
+  - changed-files:
+      - any-glob-to-any-file: "docs/**/*"
+      - any-glob-to-any-file: "*.md"
+
+# Core Files Labels
+type/core:
+  - changed-files:
+      - any-glob-to-any-file: "CODEOWNERS"
+      - any-glob-to-any-file: "LICENSE"
+      - any-glob-to-any-file: "README.md"

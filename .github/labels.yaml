@@ -1,0 +1,27 @@
+---
+# Area Labels
+- name: area/docs
+  color: "72CCF3"  # Light Blue
+  description: >-
+    Changes to documentation and guides
+
+- name: area/examples
+  color: "BC9BE3"  # Lavender
+  description: >-
+    Changes to example code and demonstrations
+
+- name: area/github
+  color: "F4D1B7"  # Peach
+  description: >-
+    Changes made to GitHub Actions
+
+# Documentation Labels
+- name: type/docs
+  color: "0075CA"  # Documentation Blue
+  description: >-
+    Documentation updates and improvements
+
+- name: type/core
+  color: "A2EEEF"  # Light Blue
+  description: >-
+    Changes to core repository files and configurations

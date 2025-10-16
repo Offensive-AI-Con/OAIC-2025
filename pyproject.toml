@@ -1,0 +1,53 @@
+[project]
+name = "oaic-2025"
+version = "0.1.0"
+description = "Offensive AI Con 2025 Repository"
+requires-python = ">=3.10,<=3.13"
+dependencies = [
+    "rigging>=3.3.2"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pre-commit>=4.1.0"
+]
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.bandit]
+exclude_dirs = ["tests"]
+skips = ["B101"]
+
+[tool.poetry]
+name = "oaic-2025"
+version = "0.1.0"
+description = "Offensive AI Con 2025 Repository"
+authors = ["Ads Dawson ads@dreadnode.io"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^4.1.0"
+rigging = "^3.3.2"
+
+[tool.poetry.scripts]
+# Define CLI entry points here, e.g.:
+# mycommand = "my_project.module:function"
+
+[tool.black]
+line-length = 88
+target-version = ['py39']
+
+[tool.readme]
+github_org = "offensive-ai-con"
+logo_url = "https://pbs.twimg.com/profile_banners/1840847063443259392/1742337980/1080x360"
+tagline = "Where AI meets offensive cyber"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+[tool.hatch.build.targets.sdist]
+packages = ["src"]
